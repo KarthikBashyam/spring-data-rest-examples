@@ -28,6 +28,7 @@ public class SpringDataRestApplication {
 			System.out.println("=============== SPRING DATA REST =================");
 
 			employeeRepository.save(new Employee("KARTHIK", "CANADA", new BigDecimal("100")));
+			employeeRepository.save(new Employee("BASHYAM", "CANADA", new BigDecimal("100")));
 		};
 
 	}
